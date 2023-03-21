@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+
+import math
+
+
+#Decoración: Nombre del Algoritmo
+
+print("-------------------------------------------------------")
+print("Ejercicio5: NÚMERO DE MICRO DISCOS 3.5 NECESARIOS")
+print("----
+
+---------------------------------------------------")
+#Entradas
+print("Ingrese GB: ")
+GB = float( input())
+#Proceso
+
+
+MG = GB*1024
+MD = MG/1.44
+#Salida
+
+
+print("\nSALIDA: ")
+print("-------------------------------------------------------")
+print(MD)
+
+print("Numero de Discos necesarios: ", math.ceil(MD))
